@@ -3,19 +3,129 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MY PERSONAL PROFILE</title>
+    <title>Abdulkadir Adamu Haji</title>
+    <link href="bootstrap-5.0.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to bottom right, #009933 10%, #ccffcc 60%);
+            color: #333;
+        }
+        header {
+            background: linear-gradient(to top left, #009933 10%, #ccffcc 60%);;
+            color: b;
+            padding: 1rem 0;
+            text-align: center;
+            font-family: 'Courier New', Courier, monospace;
+            text-decoration: dashed;
+            border: solid 1px green;
+    
+        }
+        nav {
+            position: static;
+            display: flex;
+            justify-content: center;
+            background-color: white;
+            border: solid 1px green;
+
+        }
+        nav a {
+            color: black;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background-color: wheat;
+        }
+
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            border: solid 1px green;
+            border-radius: 20px;
+        }
+
+.profile-pic {
+    width: 200px; /* Adjust size as needed */
+    height: 200px; /* Adjust size as needed */
+    border-radius: 50%;
+    object-fit: cover; /* Ensures the image covers the entire circle */
+    display: block;
+    margin: 0 auto 20px; /* Center the image and add some space below it */
+}
+section label{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+        
+        footer {
+            text-align: center;
+            padding: 1rem 0;
+            background: linear-gradient(to bottom left, #009933 10%, #ccffcc 60%);
+            color: black;
+        }
+    </style>
 </head>
 <body>
-  <h1>MY PERSONAL PROFILE</h1> 
-  <img src="./images/ab.png" alt="my picture">
-  <h2>i am abdulkadir adamu born and rised in gombe 21 years ago i work at haji general clothing collection and also a student</h2>
-  <h3>hobbies</h3>
-  <ol>
-    <li>reading</li>
-    <li>travelling</li>
-    <li>busy</li>
-  </ol>
 
+<header>
+    <h1>Abdulkadir Adamu Haji</h1>
+</header>
+
+<nav class="navbar navbar-expand-sm bg-light justify-content-center">
+    <a href="#about">About Me</a>
+    <a href="#business">My Business</a>
+    <a href="#contact">Contact</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<section id="about" class="container-fluid">
+    <h2>About Me</h2>
+    <img src="./images/abdul.jpg" alt="Abdulkadir Adamu Haji" class="profile-pic">
+    <center>
+    <label><b>Abdulkadir Adamu Haji</b></label><br>
+    <label><b><em><mark>MD.CEO</mark></em></label>
+    </center>
+    <p>Hello! I am Abdulkadir Adamu Haji, 
+        the treasurer of the Youth Preaching Committee of JIBWIS.
+         I have a deep passion for community service and youth development.</p>
+</section>
+
+<section id="business">
+    <h2>My Business</h2>
+    <p>Welcome to Haji General Clothing Collections, where we provide a wide range of clothing options to suit your style and needs. Our commitment is to offer quality products and exceptional customer service.</p>
+ <h1><a href="https://www.google.com/search?q=haji+general+clothing+collection&sca_esv
+    =3b07b09e3325eaa7&sca_upv=1&sxsrf=ADLYWILz56yokpjFkPBJBrVind6ZqbWXRw%3A1721644986978&ei
+    =ujeeZuuyO-KdhbIPtpi3WA&oq=&gs_lp=Egxnd3Mtd2l6LXNlcnAiACoCCAAyBxAjGCcY6gIyBxAjGCcY6gIyBx
+    AjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCcY6gIyBxAjGCc
+    Y6gIyGhAuGIAEGJECGLQCGMcBGIoFGOoCGK8B2AEBMhoQLhiABBiRAhjRAxi0AhjHARiKBRjqAtgBATIUEAAYgAQYk
+    QIYtAIYigUY6gLYAQEyFBAAGIAEGJECGLQCGIoFGOoC2AEBMhQQABiABBiRAhi0AhiKBRjqAtgBATIUEAAYgAQYkQI
+    YtAIYigUY6gLYAQFI-IYDUJQYWLUgcAd4CJABBJgB-zSgAbvTAaoBAzktNLgBAcgBAPgBAZgCDqAC5QKoAhDCAgQQA
+    BhHmAMtiAYBkAYIugYGCAEQARgBkgcCMTSgB69O&sclient
+    =gws-wiz-serp"> my bussiness profile</a></h1>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>For inquiries, please reach out via email at <a href="mailto:abdulkadiradamu203@gmail.com">abdulkadiradamu203@gmail.com</a> or call us at (+234) 7065688358.</p>
+</section>
+
+<section id="blog">
+    <h2>Blog</h2>
+    <p>Stay tuned for updates on our latest projects and initiatives!</p>
+</section>
+
+<footer>
+    <p>&copy; 2024 Abdulkadir Adamu Haji. All rights reserved.</p>
+</footer>
 
 </body>
 </html>
+
